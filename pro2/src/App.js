@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <Feature/>
-      <GridFeature/>
+      <div class="features__grid">
+        <GridFeature type="first"/>
+        <GridFeature type="second"/>
+        <GridFeature type="third"/></div>
     </div>
   );
 }

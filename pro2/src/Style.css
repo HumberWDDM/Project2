@@ -200,6 +200,7 @@ p {
 
 .features__grid{
     display: flex;
+    text-align: center;
     justify-content: center;
     gap: 50px;
     margin-top: 50px;
