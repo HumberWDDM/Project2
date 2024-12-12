@@ -1,10 +1,11 @@
 import './Style.css';
-import Feature from './components/Features'
+import Feature, {GridFeature} from './components/Features'
 
 function App() {
   return (
     <div className="App">
       <Feature/>
+      <GridFeature/>
     </div>
   );
 }
