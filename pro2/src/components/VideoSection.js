@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/VideoSection.css";
 
 function VideoSection() {
-  const [videoSrc] = useState("/videos/sample.mp4");
+  const [videoSrc] = useState("/images/movie.mp4");
   const [altText] = useState("Our Story");
   const [title] = useState("Discover Our Journey");
   const [text] = useState("Watch this video to learn more about our mission and values.");
