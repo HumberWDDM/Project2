@@ -9,7 +9,7 @@ function VideoSection() {
 
   return (
     <section className="video-sec">
-      <video width="100%" height="500" controls style={{ objectFit: "cover" }}>
+      <video loop autoPlay muted width="100%" height="500" controls style={{ objectFit: "cover" }}>
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
