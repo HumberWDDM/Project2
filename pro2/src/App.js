@@ -4,13 +4,12 @@ import Footer from "./components/Footer"
 import IframeSection from "./components/IframeVideo"
 import Newsletter from "./components/NewsLetter"
 import VideoSection from "./components/VideoSection"
-import "./App.css"
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import Header from './components/Header';
 import Banner from "./components/Banner";
 import About from './components/About';
-import './Style.css';
+import './Styles.css';
 // import Feature, {GridFeature} from './components/Features'
 // import Reservation from './components/Reservation'
 
