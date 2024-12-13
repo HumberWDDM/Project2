@@ -9,6 +9,14 @@ import "./App.css"
 function App() {
   return (
     <div>
+      <Feature/>
+      <div class="features__grid">
+        <GridFeature type="first"/>
+        <GridFeature type="second"/>
+        <GridFeature type="third"/>
+      </div>
+      {/* <Reservation/>
+      <Newsletter/> */}
       <VideoSection />
       <Newsletter />
       <IframeSection />
