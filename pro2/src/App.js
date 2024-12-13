@@ -7,6 +7,8 @@ import './Style.css';
 import Feature, {GridFeature} from './components/Features'
 import Reservation from './components/Reservation'
 import Newsletter from './components/Newsletter'
+import IframeSection from './components/IframeVideo';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
       </div>
       <Reservation/>
       <Newsletter/>
+      <IframeSection />
+      <Footer />
     </div>
   );
 }
