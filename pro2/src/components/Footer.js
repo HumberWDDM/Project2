@@ -30,7 +30,8 @@ function Footer() {
             <ol>
               {contactInfo.map((info, index) => (
                 <li key={index}>
-                  <b>{info.type}:</b> <u>{info.detail}</u>
+                  <b>{info.type}:</b> 
+                  <u>{info.detail}</u>
                 </li>
               ))}
             </ol>

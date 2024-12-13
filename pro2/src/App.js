@@ -10,8 +10,8 @@ function App() {
   return (
     <div>
       <VideoSection />
-      <IframeSection />
       <Newsletter />
+      <IframeSection />
       <Footer />
     </div>
   );
