@@ -1,5 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import Feature from "./components/Features"
+import { GridFeature } from "./components/Features"
 import Footer from "../src/components/Footer"
 import IframeSection from "../src/components/IframeVideo"
 import Newsletter from "../src/components/NewsLetter"
