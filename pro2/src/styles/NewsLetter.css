@@ -26,4 +26,5 @@ input~button {
     color: white;
     font-family: 'Cinzel';
     font-size: 15px;
+    cursor: pointer;
 }
